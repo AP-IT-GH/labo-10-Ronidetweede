@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Cube{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    
+}
+
+#Cube:hover{
+    animation: Hover 5s ease-out 1 normal none;
+    
+}
+
+@keyframes Hover {
+
+    50%{
+        background-color: blue;
+        border-radius: 200px;
+    }
+    
+}

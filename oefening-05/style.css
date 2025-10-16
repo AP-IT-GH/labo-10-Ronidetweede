@@ -1,0 +1,72 @@
+.Header{
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    height: 60px;
+}
+
+.HeaderList{
+    display: flex;
+    gap: 50px;
+    padding-right: 50px;
+    color: white;
+
+}
+
+.Middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+input{
+    border: 1px solid black;
+    width: 300px;
+}
+
+#Bericht{
+    
+    height: 100px;
+    width: 300px;
+}
+#Button{
+    color: white;
+    background-color: darkred;
+    text-align: center;
+    border: 0px;
+    height: 30px;
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+#Button:hover{
+   background-color: lightseagreen;
+   border-radius: 0px;
+}
+
+#IMG{
+    width: 250px;
+    margin-right: 20px;
+    animation: Rotate 10s linear 0s infinite normal;
+
+}
+
+@keyframes Rotate {
+    100%{
+        transform: rotate(360deg);
+}
+}
+
+
+li{
+    transition: 0.3s;
+}
+
+li:hover{
+    color: black;
+}

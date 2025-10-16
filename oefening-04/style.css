@@ -1,0 +1,33 @@
+div{
+    width: 150px;
+    height: 150px;
+    border: 1px gray solid;
+    box-shadow: 0px 1px gray;
+    border-radius: 10px;
+
+    transition-duration: 0.4s;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.Links:hover{
+    transform: translateX(-50px);
+
+}
+
+.Boven:hover{
+    transform: translatey(50px);
+
+}
+
+.Rechts:hover{
+        transform: translateX(50px);
+
+}
